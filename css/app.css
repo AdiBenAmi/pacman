@@ -1,0 +1,56 @@
+body {
+  background-color: black;
+  color:white;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+/* .super-food {
+  color: #ADD8E6;
+} */
+
+/* .formLine {
+  margin:10px;
+  padding:10px;
+  background-color: cornflowerblue;
+} */
+
+.modal-container {
+  height: 150px;
+  line-height: 100px;
+  width: 300px;
+  background-color: white ;
+  color:black;
+  margin-right: -50%;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  vertical-align: middle;
+}
+
+h3 {
+  display: inline;
+  font-size: 30px; 
+}
+
+button{
+  display: block;
+  left: 50%;
+  margin: auto;
+  height: 30px;
+  width: 120px;
+}
+
+.hide {
+  display: none;
+}
+
+
+
